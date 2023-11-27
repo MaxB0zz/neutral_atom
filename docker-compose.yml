@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  neutral_atom_notebook:
+    build: .
+    ports: 
+      - "8080:8080"
+    container_name: neutral-notebooks
+    volumes:
+      - .:/opt/project
+    command: jupyter-notebook notebooks --allow-root --ip 0.0.0.0 --port 8080
+
