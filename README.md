@@ -1,5 +1,9 @@
 # neutral_atom
 
+## Graph Coloring
+
+Compares a naive classical graph coloring algorithm and quantum graph coloring using an MIS solver.
+
 ## Setup Guide
 
 > In order to run the notebook with the result you will need to run Docker in background. Once it is done, execute :
